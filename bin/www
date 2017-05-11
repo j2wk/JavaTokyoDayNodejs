@@ -15,7 +15,7 @@ console.log(__dirname)；
 console.log("**************")；
 console.log(process.env.PORT)；
 console.log("**************")；
-var port = normalizePort(process.env.PORT || '3000');
+var port = normalizePort(process.env.PORT || '3000' || 80 || '80');
 app.set('port', port);
 
 /**
