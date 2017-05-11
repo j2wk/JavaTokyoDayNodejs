@@ -2,6 +2,8 @@
 "runtime":{
 "majorVersion":"6"
 },
+"command": "pwd",
+"command": "ls -a",
 "command": "node ./bin/www",
 "release": {},
 "notes": "Sample, Quick Start Oracle JET Application prepared to run on Oracle Application Container Cloud"
