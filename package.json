@@ -3,13 +3,10 @@
   "config" : { "port" : "80" },
   "version": "0.0.0",
   "private": true,
-  "env": "env",
   "scripts": {
-    "test":"echo \" Error:\" $$ exit 1",
-    "test1":"echo  port ",
-    "view": "node ./bin/www",
     "install": "node ./bin/www",
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "env": "env"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
