@@ -7,6 +7,6 @@ pwd
 echo "ls-a"
 ls -a
 echo "node++"
-node ./JavaTokyoDayNodejs/bin/www
+node ./bin/www
 echo "end"
 
