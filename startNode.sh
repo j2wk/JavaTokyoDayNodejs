@@ -2,9 +2,9 @@
 
 # Setting Env andStrat Node 
 echo "&&& Start startNode.sh ...<<<"
-export PATH=${PATH}:../lib/node_modules/npm/bin/node-gyp-bin:./node_modules/.bin:../nodejs/bin:../nodejs/lib/node_modules:../lib/node_modules/.bin:./bin/www:
+export PATH=${PATH}:/u01/nodejs/lib/node_modules/npm/bin/node-gyp-bin:/u01/app//node_modules/.bin:/u01/nodejs/lib/node_modules/.bin:/u01/nodejs/bin
 echo ${PATH}
 echo "run"
-#node ./bin/www
+start
 echo "end"
 
