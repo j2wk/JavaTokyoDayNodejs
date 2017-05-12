@@ -6,7 +6,7 @@
 
 console.log("**************111111")；
 var app = require('../app');
-var debug = require('debug')('javaDatTokyoNodejs:server');
+var debug = require('debug')('app:server');
 var http = require('http');
 
 /**
