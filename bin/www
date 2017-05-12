@@ -5,7 +5,7 @@
  */
 
 console.log("**************111111")；
-var app = require('../app');
+var app = require('express');
 var debug = require('debug')('app:server');
 var http = require('http');
 
@@ -17,7 +17,7 @@ console.log("**************")；
 console.log(process.env.PORT)；
 console.log("**************")；
 var port = normalizePort(process.env.PORT || '3000' || '80');
-var ip = normalizePort(process.env.IP || '127.0.0.1');
+var ip = normalizePort(process.env.IP || '127.0.0.1' || localhost);
 app.set('port', port);
 
 /**
