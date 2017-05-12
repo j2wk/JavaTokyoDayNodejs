@@ -1,20 +1,23 @@
 #!/bin/bash
-
-# Setting Env andStrat Node 
+# Setting Env and Stsrt Node 
 echo "&&& Start startNode.sh ...<<<"
 APP_ROOT_HOME=`pwd`
 chmod 777 *
-cp -R node_modules/* /u01/nodejs/lib/node_modules/
-cd bin
-cp * /u01/nodejs/bin
-cd /u01/nodejs/lib/node_modules/npm
-mkdir javaDayNodejsDemo
-export PATH=${PATH}:/u01/apps/:/u01/lib/node_modules/npm/javaDayNodejsDemo:/u01/nodejs/lib/node_modules/npm/bin/node-gyp-bin:/u01/app/node_modules/.bin:/u01/nodejs/lib/node_modules/.bin:/u01/nodejs/bin
-cp -R /u01/apps/* /u01/nodejs/lib/node_modules/npm/javaDayNodejsDemo
-cd /u01/nodejs/bin
-#console.log(process.mainModule.paths)
-#console.log(${process.mainModule.paths})
-cd  /u01/nodejs
+npm install body-parser
+npm install cookie-parser
+npm install debug
+npm install express
+npm install jade
+npm install morgan
+npm install serve-favicon
+npm install express -g
+echo "111"
+express javaDatTokyoNodejs
+echo "222"
+cp -R * ../nodejs/javaDatTokyoNodejs
+echo "333"
+cd ../nodejs/javaDatTokyoNodejs
+echo "444"
 node ./bin/www
 echo "end"
 
