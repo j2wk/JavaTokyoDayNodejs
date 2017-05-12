@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "install": "node ./bin/www"，
+    "install": "node ./bin/www",
     "start": "node ./bin/www"
   },
   "dependencies": {
