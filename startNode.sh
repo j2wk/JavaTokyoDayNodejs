@@ -2,10 +2,9 @@
 
 # Setting Env andStrat Node 
 echo "&&& Start startNode.sh ...<<<"
-echo "2"
+export PATH=${PATH}:/u01/nodejs/bin
 echo ${PATH}
-cd ..
-echo "333"
-##ls -a
+echo "run"
+node ./bin/www
 echo "end"
 
