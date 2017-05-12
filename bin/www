@@ -4,7 +4,8 @@
  * Module dependencies.
  */
 
-var app = require('../app');
+console.log("**************111111")；
+var app = require('../nodejs');
 var debug = require('debug')('javadaynodejsdemo:server');
 var http = require('http');
 
