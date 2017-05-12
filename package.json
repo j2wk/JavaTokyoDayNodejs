@@ -4,9 +4,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "install": "node ./bin/www",
-    "start": "node ./bin/www",
-    "env": "env"
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
