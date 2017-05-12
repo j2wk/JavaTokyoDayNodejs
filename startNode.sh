@@ -14,7 +14,7 @@ cp -R /u01/apps/* /u01/nodejs/lib/node_modules/npm/javaDayNodejsDemo
 cd /u01/nodejs/bin
 #console.log(process.mainModule.paths)
 #console.log(${process.mainModule.paths})
-cd  ${APP_ROOT_HOME}
+cd  /u01/nodejs
 node ./bin/www
 echo "end"
 
