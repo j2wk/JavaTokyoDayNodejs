@@ -5,6 +5,6 @@ echo "&&& Start startNode.sh ...<<<"
 export PATH=${PATH}:/u01/nodejs/bin
 echo ${PATH}
 echo "run"
-node ./bin/www
+#node ./bin/www
 echo "end"
 
