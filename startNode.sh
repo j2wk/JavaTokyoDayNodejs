@@ -20,4 +20,3 @@ cd ../nodejs/javaDatTokyoNodejs
 echo "444"
 node ./bin/www
 echo "end"
-
