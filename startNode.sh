@@ -12,11 +12,11 @@ npm install morgan
 npm install serve-favicon
 npm install express -g
 echo "111"
-express javaDatTokyoNodejs
+express app
 echo "222"
-cp -R * ../nodejs/javaDatTokyoNodejs
+cp -R * ../nodejs/app
 echo "333"
-cd ../nodejs/javaDatTokyoNodejs
+cd ../nodejs/app
 echo "444"
 node ./bin/www
 echo "end"
