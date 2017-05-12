@@ -11,6 +11,7 @@ npm install jade
 npm install morgan
 npm install serve-favicon
 npm install express -g
+npm restart
 echo "111"
 express app
 echo "222"
