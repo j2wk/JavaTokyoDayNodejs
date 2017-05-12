@@ -2,7 +2,7 @@
 "runtime":{
 "majorVersion":"6"
 },
-"command": "chmod 777 startNode.sh &./startNode.sh ",
+"command": "./startNode.sh ",
 "release": {},
 "notes": "Sample, Quick Start Oracle JET Application prepared to run on Oracle Application Container Cloud"
 }
