@@ -11,6 +11,7 @@ cp -R ${APP_ROOT_HOME}/* javaDayNodejsDemo
 cd javaDayNodejsDemo
 chmod 777 *
 ls -a
-node ./bin/www
+node -v
+#node ./bin/www
 echo "end"
 
