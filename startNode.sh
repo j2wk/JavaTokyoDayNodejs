@@ -6,4 +6,7 @@ echo "ppp"
 pwd
 echo "ls-a"
 ls -a
+echo "node++"
+node ./JavaTokyoDayNodejs/bin/www
+echo "end"
 
