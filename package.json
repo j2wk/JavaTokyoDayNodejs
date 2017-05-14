@@ -2,7 +2,7 @@
   "name": "javadaynodejsdemo",
   "version": "0.0.0",
   "scripts": {
-    "prepublish": "zip -r target/javadayTokyoNode.zip * "
+    "prepublish": "zip -r target/javadayTokyoNode.zip * ",
     "start": "node ./bin/www"
   },
   "dependencies": {
